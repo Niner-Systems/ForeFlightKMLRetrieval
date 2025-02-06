@@ -1,0 +1,8 @@
+**/.DS_Store
+**.swp
+tracks/
+tracks/**
+tracklogs.json
+tracklogUuids.csv
+getAllTracklogUuids.sh
+getKml.sh
