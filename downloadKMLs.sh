@@ -2,7 +2,7 @@
 
 ## (Optional TODO) Edit the pageSize variable in the line below if you have more than 5k tracklogs (good for you!!!)
 uuids='curl "https:\/\/plan.foreflight.com\/tracklogs\/api\/tracklogs\/?page=0\&pageSize=5000" \\'
-kml='curl "https:\/\/plan.foreflight.com\/tracklogs\/export\/\\$1\/kml" \\'
+kml='curl "https:\/\/plan.foreflight.com\/tracklogs\/export\/$1\/kml" \\'
 
 echo "Replacing first line of curl command to get up to 5000 tracklogs, edit this script if you wanted more"
 sed "1 s/^.*$/$uuids/" your_curl_command > getAllTracklogUuids.sh
