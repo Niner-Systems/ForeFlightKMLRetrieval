@@ -14,7 +14,9 @@ I provide no warranty or guaranty that this will work, as Foreflight may alter t
 
 ## How To Use
 
-1. Acquire the curl command from Foreflight for getting all of your tracklog UUIDs, this video shows you how to obtain it:  [![Get The curl Command](images%2Fget_curl_command.mp4)](images%2Fget_curl_command.mp4)
+1. Acquire the curl command from Foreflight for getting all of your tracklog UUIDs, this video shows you how to obtain it: 
+[https://youtu.be/kJTHsCT75Lc](https://youtu.be/kJTHsCT75Lc) 
+[<img width="1239" alt="image" src="https://github.com/user-attachments/assets/8629997b-9106-4bba-9f0f-3d9ad00cf54e" />](https://youtu.be/kJTHsCT75Lc)
    
 2. Replace the contents of [your_curl_command](your_curl_command) with the curl command now in your clipboard. It should appear somewhat similar to what is already in the file. The repo file had my tokens redacted. Replace it all just as you see it - do not add a blank line to the top and make sure the first line is only the url and ends with a \ like in the example file. The first line gets replaced inorder to execute multiple requests. It gets replaced in order to increase the list from 20 tracks to up to 5000 and it gets replaced to make the repeated calls for the kml file.
 
